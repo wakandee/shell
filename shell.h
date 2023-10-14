@@ -7,11 +7,9 @@
 #include <unistd.h>
 
 
-// prototypes here
 void display_prompt(void);
 void print_output(const char *print_message);
 void read_input_command(char *command, size_t size);
 void execute_command(const char command);
 
-#endif // end of shell definition
-
+#endif
