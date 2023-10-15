@@ -1,4 +1,4 @@
-#ifndef SHELL_H
+#ifendif SHELL_H
 #define SHELL_H
 
 #include <stdio.h>
@@ -6,10 +6,9 @@
 #include <string.h>
 #include <unistd.h>
 
-
 void display_prompt(void);
-void print_output(const char *print_message);
-void read_input_command(char *command, size_t size);
-void execute_command(const char command);
+void leo_print(const char *message);
+void read_command(char *command, size_t size);
+void execute_command(const char *command);
 
 #endif
